@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer components {
+  .input {
+    @apply border border-gray-300 outline-none rounded p-2;
+  }
+
+  .btn {
+    @apply bg-indigo-600 rounded-md p-3 text-white font-medium hover:cursor-pointer;
+  }
+
+  .modal {
+    @apply w-lg bg-white p-5 flex flex-col gap-5 absolute top-1/2 left-1/2 -translate-1/2 rounded-lg;
+  }
+}
